@@ -1,0 +1,25 @@
+{
+  "name": "appium-args-to-schema",
+  "version": "0.0.1",
+  "description": "Convert an Appium driver's argsConstraints configuration to a JSON schema",
+  "main": "appium-args-to-schema.js",
+  "bin": {
+    "appium-args-to-schema": "appium-args-to-schema.js"
+  },
+  "keywords": [
+    "appium"
+  ],
+  "author": "Christopher Hiller <boneskull@boneskull.com>",
+  "license": "0BSD",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "read-pkg-up": "^9.0.0",
+    "resolve-from": "^5.0.0",
+    "write-pkg": "^5.0.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/lodash": "^4.14.176",
+    "@types/node": "^16.11.6"
+  }
+}
